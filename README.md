@@ -1,10 +1,24 @@
-# nvim-for-C
+# Neovim для C
 
-зависимости: git, make, build-essential, clangd, clang-format, cppcheck, curl, unzip, python3, ripgrep, fd-find, tree-sitter-cli, luarocks, fuse
+## Зависимости
 
-как установить neovim:
-https://neovim.io/doc/install/
+```bash
+git make build-essential clangd clang-format cppcheck curl unzip \
+python3 ripgrep fd-find tree-sitter-cli luarocks fuse
+```
 
-весь конфиг обьязан находиться в .config/nvim
+## Установка Neovim
 
-lsp работает с compile_commands.json, удобно создавать в make проектах - compiledb
+Следуйте инструкции: [neovim.io/doc/install/](https://neovim.io/doc/install/)
+
+## Настройка
+
+Конфиг должен быть в `~/.config/nvim`
+
+## LSP
+
+Для работы LSP нужен `compile_commands.json`. В make-проектах создаётся через:
+
+```bash
+compiledb make
+```
