@@ -5,6 +5,6 @@
 как установить neovim:
 https://neovim.io/doc/install/
 
-весь конфиг находиться в .config/nvim
+весь конфиг обьязан находиться в .config/nvim
 
-lsp работает с помощю - compile_commands.json, удобно создавать в make проектах - compiledb
+lsp работает с compile_commands.json, удобно создавать в make проектах - compiledb
