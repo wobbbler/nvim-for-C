@@ -7,3 +7,4 @@ https://neovim.io/doc/install/
 
 lsp работает с помощю - compile_commands.json, удобно создавать в make проектах - compiledb
 # nvim-for-C
+# nvim-for-C
